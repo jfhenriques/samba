@@ -21,7 +21,7 @@ RUN apk add --no-cache runit \
  && touch /external/avahi/not-mounted \
  && echo done
 
-VOLUME ["/shares"]
+#VOLUME ["/shares"]
 
 EXPOSE 139 445
 
